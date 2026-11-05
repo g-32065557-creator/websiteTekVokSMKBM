@@ -146,6 +146,19 @@ body {
     z-index: -2;
 }
 
+.hero-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
 .particle {
     position: absolute;
     width: 100%;
@@ -460,6 +473,24 @@ section {
     color: var(--primary-color);
 }
 
+.program-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.program-image .program-icon {
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 0;
+}
+
 .program-card h3 {
     font-family: 'Orbitron', sans-serif;
     font-size: 1.4rem;
@@ -541,13 +572,13 @@ section {
 
 .project-image {
     height: 250px;
-    background: var(--gradient-1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 4rem;
-    color: rgba(255, 255, 255, 0.3);
 }
 
 .project-overlay {
